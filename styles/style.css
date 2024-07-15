@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    background-color: #dfb1d3;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+header .container ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+header .container ul li {
+    margin-left: 25px;
+    margin-right: 25px;  
+    color: white;  
+}
+
+.header-navigation {
+    display: flex;
+    height: 100%;
+    font-size: 18px;
+}
+
+.footer-navigation ul {
+    list-style-type: none;
+    color: white;
+    padding: 25px;
+}
+
+.footer-navigation {
+    display: flex;
+    height: 100%;
+    font-size: 18px;
+}
+
+footer {
+    height: 250px;
+    background-color: #96798f;
+    position: relative;
+}
+
+main {
+    min-height: 750px;
+    background-color: rgb(255, 240, 244);
+}
+
+.main-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content p {
+    margin-top: 25px;
+}
+
+.main-content h1 {
+    margin-top: 10px;
+}
+
+.header-navigation a, .footer-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.product-card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid rgb(255, 200, 222);
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.product-card button {
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 167, 220);
+    padding: 5px;
+    background-color:rgb(255, 224, 243);
+    cursor: pointer;
+    transition: 0.2s;
+} 
+
+.add-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card button:hover {
+    background-color: #ffbbef;
+    transition: 0.2s;
+}
+
+.product-image {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-header {
+    font-size: 18px;
+    text-align: center;
+}
+
+.product-description {
+    font-size: 16px;
+    text-align: right;
+}
+
+.product-price {
+    text-align: right;
+}
+
+.products-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}

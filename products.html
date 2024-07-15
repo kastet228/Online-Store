@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Главная страница интернет-магазина</title>
+</head>
+
+<body>
+    <header>
+        <div class="container header-navigation">
+            <ul>
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="products.html">Товары</a></li>
+                <li><a>О нас</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="add-product">
+                <span>Имя товара</span>
+                <input type="text" name="" id="product-name">
+                <span>Описание</span>
+                <input type="text" name="" id="product-description">
+                <span>Цена</span>
+                <input type="text" name="" id="product-price">
+                <button id="add-product-button">Добавить</button>
+            </div>
+            <div class="products-list">
+                <div class="product-card">
+                    <h2 class="product-header">Туалетная вода Antonio Banderas Blue Seduction</h2>
+                    <div class="product-image"><img src="images/product1.jpeg" alt=""></div>
+                    <p class="product-description">Мужская, 100мл</p>
+                    <span class="product-price">2499.00 ₽</span>
+                    <button>Купить</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-navigation">
+            <ul>
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="products.html">Товары</a></li>
+                <li><a>О нас</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="scripts/dublicate-products.js"></script>
+<script src="scripts/diversify-products.js"></script>
+<script src="scripts/add-product.js"></script>
+</html>
